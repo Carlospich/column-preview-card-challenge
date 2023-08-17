@@ -1,33 +1,28 @@
-.body{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #F0F8FF;
-}
 .contenedor_sedans{
     display: flex;
     background-color: hsl(31, 77%, 52%);
     flex-direction: column;
-    align-self: center;
     flex: 1;
+    padding:40px;
 }
 .contenedor_suvs{
     display: flex;
     background-color: hsl(184, 100%, 22%);
     flex-direction: column;
-    align-self: center;
     flex: 1;
+    padding:40px;
 }
 .contenedor_luxury{
     display: flex;
     background-color: hsl(179, 100%, 13%);
     flex-direction: column;
-    align-self: center;
     flex: 1;
+    padding:40px;
 }
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 p{
     font-family: 'Lexend Deca', sans-serif;
@@ -74,4 +69,5 @@ img{
     margin-top: 2.5rem;
     margin-left: 2.5rem;
 }
-
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

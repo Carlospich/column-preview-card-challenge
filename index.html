@@ -10,17 +10,86 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Lexend+Deca:wght@100;200&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | 3-column preview card component</title>
-
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href=".css" />
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .contenedor_sedans{
+    display: flex;
+    background-color: hsl(31, 77%, 52%);
+    flex-direction: column;
+    flex: 1;
+    padding:40px;
+}
+.contenedor_suvs{
+    display: flex;
+    background-color: hsl(184, 100%, 22%);
+    flex-direction: column;
+    flex: 1;
+    padding:40px;
+}
+.contenedor_luxury{
+    display: flex;
+    background-color: hsl(179, 100%, 13%);
+    flex-direction: column;
+    flex: 1;
+    padding:40px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    justify-content: left;
+    margin: 2.5rem;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    margin: 2.5rem;
+}
+
+.boton{
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color:hsl(31, 77%, 52%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
+    margin: 2.5rem;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.contenedor_suvs .boton
+{
+    color:  hsl(184, 100%, 22%);
+}
+.contenedor_luxury .boton
+{
+    color:  hsl(179, 100%, 13%);
+}
+img{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-  <div class ="fondo">
+  <div class ="card">
     <div class ="contenedor_sedans"> 
       <div class ="sedans_img">
         <img src="./images/icon-sedans.svg" alt="sedans"> 
