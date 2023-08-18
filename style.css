@@ -1,3 +1,6 @@
+.body{
+    background: hsl(0, 0%, 95%);
+}
 .contenedor_sedans {
     background-color: hsl(31, 77%, 52%);
     flex-direction: column;
@@ -34,7 +37,7 @@
 
 p {
     font-family: 'Lexend Deca', sans-serif;
-    color: white;
+    color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
     margin-bottom: 45px;
     line-height: 2;
@@ -42,13 +45,13 @@ p {
 
 h1 {
     font-family: 'Big Shoulders Display', cursive;
-    color: white;
+    color: hsl(0, 0%, 95%);
     font-size: 35px;
     margin-bottom: 45px;
 }
 
 .boton {
-    background-color: white;
+    background-color: hsl(0, 0%, 95%);
     border-radius: 50px;
     border: none;
     color: hsl(31, 77%, 52%);
